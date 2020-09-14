@@ -392,11 +392,9 @@ module.exports = function webpackConfig(configs, webpack, mode) {
                      return `chunk-${joinedHash}`;
                  }),
 
-            /* config.plugin('Copyright') */
-            isBuild
-                 && new webpack.BannerPlugin(
-                     'Created By MumbleFe. Copyright © 2015 - 2018 WeBank.'
-                 ),
+            // /* config.plugin('Copyright') */
+            // isBuild
+            //      && new webpack.BannerPlugin(''),
 
             /* config.plugin('case-sensitive-paths') */
             new CaseSensitivePathsPlugin(),

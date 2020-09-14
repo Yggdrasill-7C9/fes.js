@@ -1,6 +1,6 @@
 {
     "name": "@webank/fes-cli",
-    "version": "0.1.1",
+    "version": "0.1.4",
     "description": "一个好用的前端管理台快速开发框架",
     "preferGlobal": true,
     "scripts": {
@@ -80,6 +80,7 @@
         "string-replace-loader": "^2.2.0",
         "strip-indent": "^2.0.0",
         "style-loader": "^1.0.0",
+        "tar": "^6.0.5",
         "tar-fs": "^1.16.0",
         "terser-webpack-plugin": "^2.2.1",
         "thread-loader": "^2.1.3",
